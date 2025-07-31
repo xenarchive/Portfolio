@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo">Kaninika De</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/nini.png" alt="Kaninika profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1>Kaninika De</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/debadritacv.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info
+                </button>
+            </div>
+            <img src="./assets/linkedin.png" alt="My.LinkedIn.Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/kaninika-de-0374a4359/'" />
+
+            <img src="./assets/meow.png" alt="My.GitHub.Profile" class="icon" onclick="location.href='https://github.com/xenarchive'"/>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-header">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        </div>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/me.png" alt="Profile Picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                  <div class="details-container">
+                    <img src="./assets/achievement.jpg" alt="experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>2+ years <br />Full-Stack Development</p>
+                  </div>  
+                  <div class="details-container">
+                    <img src="./assets/Книги пиксель арт.jpg" alt="education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p>B.Tech Student at <br />Heritage Institute of Technology</p>
+                  </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Third-year Computer Science Engineering student with a foundation in programming, problem-solving, and creative design. Actively seeking internship and job opportunities in web development, software development, UI/UX design, or graphic design. Eager to contribute to innovative projects, learn from industry professionals, and expand my skill set in real-world environments. Known for being a fast learner, team player, and detail-oriented individual with a proactive approach to challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Full-Stack Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Express.js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Additional Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>NodeJs</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>GSAP</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>TypeScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Oracle</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/download (7).jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Graphics Design</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+  <div class="section-header">
+    <p class="section__text__p1">Browse My</p>
+    <h1 class="title">Projects</h1>
+  </div>
+  <div class="project-container">
+    <div class="project-card">
+      <img src="./assets/WhatsApp Image 2025-08-01 at 00.28.32.jpeg" alt="Project 1 Screenshot" class="project-img">
+      <h3>Real Estate Website</h3>
+      <p>A MERN-stack based Real-Estate-Platform to browse, sell or represent properties.</p>
+      <div class="project-links">
+        <a href="https://github.com/mimivrro/real-estate-platform" target="_blank">GitHub</a>
+        
+      </div>
+    </div>
+
+
+
+    <div class="project-card">
+      <img src="./assets/WhatsApp Image 2025-08-01 at 00.42.13.jpeg" alt="Project 2 Screenshot" class="project-img">
+      <h3>Portfolio Website</h3>
+      <p>This portfolio website! Made with HTML, CSS, and JavaScript.</p>
+      <div class="project-links">
+        <a href="https://github.com/xenarchive/ESTATEAPP" target="_blank">GitHub</a>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="project-card">
+      <img src="./assets/WhatsApp Image 2025-08-01 at 00.38.15.jpeg" alt="Project 3 Screenshot" class="project-img">
+      <h3>Aahar Link</h3>
+      <p>A Full-Stack Based food waste minimization project connecting donors and receivers and customer service, linking the gap between surplus and scarcity.<br>Role: Front-end Developer</p>
+      <div class="project-links">
+        <a href="https://github.com/yourusername/portfolio" target="_blank">GitHub</a>
+        <a href="#home">You’re Already Here </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="projects"></section>
+    <script src="script.js"></script>
+</body>
+</html> 
