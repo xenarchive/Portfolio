@@ -187,7 +187,7 @@ Modify `style.css` for:
 
 - **GitHub Profile**: [xenarchive](https://github.com/xenarchive)
 - **LinkedIn Profile**: [Kaninika De](https://www.linkedin.com/in/kaninika-de-0374a4359/)
-- **Email**: kaninikade@gmail.com
+- **Email**: kaninika.de.cse27@heritageit.edu.in
 
 ## 🚀 Deployment
 
@@ -213,10 +213,6 @@ Modify `style.css` for:
 3. Commit changes: `git commit -m 'Add feature'`
 4. Push to branch: `git push origin feature-name`
 5. Submit a pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 About the Developer
 
