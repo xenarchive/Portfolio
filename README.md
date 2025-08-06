@@ -7,7 +7,7 @@ A modern, responsive portfolio website showcasing my skills, experience, and pro
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio-url.com) *(Add your deployed URL here)*
+[View Portfolio](https://kaninika.onrender.com/) 
 
 ## ✨ Features
 
